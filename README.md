@@ -23,4 +23,4 @@ Bu proje, **React** ve **Firebase** kullanılarak geliştirilmiş, modern ve din
 
    3.Firestorea verileri kaydedin
 
-   ![demo](chatapp.gif)
+   ![demo](./chatapp.gif)
