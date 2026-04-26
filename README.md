@@ -1,17 +1,26 @@
-# React + Vite
+# 💬 ChatApp - Real-Time Messaging
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React** ve **Firebase** kullanılarak geliştirilmiş, modern ve dinamik bir anlık mesajlaşma uygulamasıdır. Kullanıcıların oda bazlı sohbet etmelerine olanak tanır.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+- **Google Auth:** Firebase ile güvenli giriş sistemi.
+- **Anlık Veri:** Mesajların eşzamanlı olarak tüm cihazlarda güncellenmesi.
+- **Modern Arayüz:** Tailwind CSS ile responsive (mobil uyumlu) tasarım.
+- **Oda Sistemi:** Kullanıcıların istedikleri odaya girip mesajlaşabilmesi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Kullanılan Teknolojiler
+- **Frontend:** React, Tailwind CSS
+- **Backend/Database:** Firebase Firestore, Firebase Auth
+- **Geliştirme Araçları:** Vite, VS Code Dev Tunnels / Ngrok
 
-## React Compiler
+## 📦 Kurulum
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/HasanEROL1/chat-app
 
-## Expanding the ESLint configuration
+   2.Firebaseda ayarlarınızı yapın
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# chat-app
+   3.Firestorea verileri kaydedin
+
+   ![demo](chatapp.gif)
